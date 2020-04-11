@@ -1,0 +1,49 @@
+html,body{
+    background-color: #037705;
+    color: #25ef34;
+
+}
+
+#collection{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+img{
+    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    text-align: center;
+    background-color: #1aa41c;
+    border-radius: 3px;
+    border: 13px solid #2dd83a;
+    font-weight: 900;
+    font-size: 26px;
+    margin: 10px;
+}
+
+.link{
+    padding: 10px;
+}
+
+.desc{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    padding: 30px;
+}
+
+a{
+ color: #00ff00;
+ text-decoration: none;
+}
+
+a:visited{
+    color: #00ff00;
+}
