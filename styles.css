@@ -1,5 +1,6 @@
 html,body{
     background-color: #037705;
+    background-image: url("images/Charms.png");
     color: #25ef34;
 
 }
@@ -9,6 +10,13 @@ html,body{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
+}
+
+.header{
+  background-color: #037705;
+  padding: 10px;
+  width: 300px;
+  text-decoration: underline;
 }
 
 img{
